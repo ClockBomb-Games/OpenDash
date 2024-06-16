@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://bmi8tl67evdfb"]
+
+[ext_resource type="Script" path="res://scripts/GameCamera.cs" id="1_1wdaf"]
+[ext_resource type="PackedScene" uid="uid://c0bne3iwiqnac" path="res://scenes/Default block.tscn" id="1_j0w4u"]
+
+[node name="Camera2D" type="Camera2D" node_paths=PackedStringArray("floor")]
+position = Vector2(540, -420)
+zoom = Vector2(0.7, 0.7)
+script = ExtResource("1_1wdaf")
+floor = NodePath("Floor")
+
+[node name="Floor" parent="." instance=ExtResource("1_j0w4u")]
+position = Vector2(0, 480)
+scale = Vector2(56.17, 1)

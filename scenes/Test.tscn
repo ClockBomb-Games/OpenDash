@@ -1,0 +1,103 @@
+[gd_scene load_steps=4 format=3 uid="uid://dlslox420nnd3"]
+
+[ext_resource type="PackedScene" uid="uid://c0bne3iwiqnac" path="res://scenes/Default block.tscn" id="1_27l6o"]
+[ext_resource type="PackedScene" uid="uid://dh7at44gv1s38" path="res://scenes/Player.tscn" id="2_c6jg5"]
+[ext_resource type="PackedScene" uid="uid://bmi8tl67evdfb" path="res://scenes/Game camera.tscn" id="3_24mo8"]
+
+[node name="Test" type="Node"]
+
+[node name="Default block2" parent="." instance=ExtResource("1_27l6o")]
+position = Vector2(1500, -60)
+
+[node name="Default block3" parent="." instance=ExtResource("1_27l6o")]
+position = Vector2(1980, -60)
+
+[node name="Default block4" parent="." instance=ExtResource("1_27l6o")]
+position = Vector2(1980, -180)
+
+[node name="Default block5" parent="." instance=ExtResource("1_27l6o")]
+position = Vector2(2460, -300)
+
+[node name="Default block6" parent="." instance=ExtResource("1_27l6o")]
+position = Vector2(2460, -180)
+
+[node name="Default block7" parent="." instance=ExtResource("1_27l6o")]
+position = Vector2(2460, -60)
+
+[node name="Default block8" parent="." instance=ExtResource("1_27l6o")]
+position = Vector2(3900, -60)
+
+[node name="Default block21" parent="." instance=ExtResource("1_27l6o")]
+position = Vector2(5340, -60)
+
+[node name="Default block22" parent="." instance=ExtResource("1_27l6o")]
+position = Vector2(5460, -60)
+
+[node name="Default block24" parent="." instance=ExtResource("1_27l6o")]
+position = Vector2(5580, -60)
+
+[node name="Default block23" parent="." instance=ExtResource("1_27l6o")]
+position = Vector2(6060, -180)
+
+[node name="Default block25" parent="." instance=ExtResource("1_27l6o")]
+position = Vector2(6540, -300)
+
+[node name="Default block26" parent="." instance=ExtResource("1_27l6o")]
+position = Vector2(6900, -180)
+
+[node name="Default block27" parent="." instance=ExtResource("1_27l6o")]
+position = Vector2(7380, -300)
+
+[node name="Default block28" parent="." instance=ExtResource("1_27l6o")]
+position = Vector2(7860, -420)
+
+[node name="Default block29" parent="." instance=ExtResource("1_27l6o")]
+position = Vector2(8460, -300)
+
+[node name="Default block30" parent="." instance=ExtResource("1_27l6o")]
+position = Vector2(9060, -180)
+
+[node name="Default block31" parent="." instance=ExtResource("1_27l6o")]
+position = Vector2(9660, -60)
+
+[node name="Default block9" parent="." instance=ExtResource("1_27l6o")]
+position = Vector2(4380, -60)
+
+[node name="Default block10" parent="." instance=ExtResource("1_27l6o")]
+position = Vector2(4380, -180)
+
+[node name="Default block11" parent="." instance=ExtResource("1_27l6o")]
+position = Vector2(4860, -300)
+
+[node name="Default block12" parent="." instance=ExtResource("1_27l6o")]
+position = Vector2(4860, -180)
+
+[node name="Default block13" parent="." instance=ExtResource("1_27l6o")]
+position = Vector2(4860, -60)
+
+[node name="Default block18" parent="." instance=ExtResource("1_27l6o")]
+position = Vector2(4980, -300)
+
+[node name="Default block19" parent="." instance=ExtResource("1_27l6o")]
+position = Vector2(4980, -180)
+
+[node name="Default block20" parent="." instance=ExtResource("1_27l6o")]
+position = Vector2(4980, -60)
+
+[node name="Default block14" parent="." instance=ExtResource("1_27l6o")]
+position = Vector2(5220, -180)
+
+[node name="Default block15" parent="." instance=ExtResource("1_27l6o")]
+position = Vector2(5220, -60)
+
+[node name="Default block16" parent="." instance=ExtResource("1_27l6o")]
+position = Vector2(5100, -180)
+
+[node name="Default block17" parent="." instance=ExtResource("1_27l6o")]
+position = Vector2(5100, -60)
+
+[node name="Player" parent="." instance=ExtResource("2_c6jg5")]
+position = Vector2(60, -60)
+
+[node name="Camera2D" parent="." node_paths=PackedStringArray("target") instance=ExtResource("3_24mo8")]
+target = NodePath("../Player")

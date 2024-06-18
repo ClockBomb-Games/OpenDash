@@ -40,9 +40,10 @@ jump={
 
 [physics]
 
+2d/run_on_separate_thread=true
 common/physics_ticks_per_second=120
 common/max_physics_steps_per_frame=16
-2d/default_gravity=8250.0
+2d/default_gravity=9890.0
 
 [rendering]
 

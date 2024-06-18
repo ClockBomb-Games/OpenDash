@@ -4,7 +4,7 @@
 [ext_resource type="Script" path="res://scripts/Player.cs" id="1_xt161"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_f8mh2"]
-size = Vector2(120, 120)
+size = Vector2(118, 118)
 
 [node name="Player" type="CharacterBody2D" node_paths=PackedStringArray("sprite")]
 slide_on_ceiling = false
@@ -12,8 +12,8 @@ floor_stop_on_slope = false
 floor_block_on_wall = false
 platform_on_leave = 2
 script = ExtResource("1_xt161")
-Speed = 1100.0
-JumpVelocity = 2000.0
+Speed = 1214.0
+JumpVelocity = 2180.0
 rotationSpeed = 400.0
 sprite = NodePath("Sprite")
 

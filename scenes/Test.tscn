@@ -1,105 +1,196 @@
-[gd_scene load_steps=4 format=3 uid="uid://dlslox420nnd3"]
+[gd_scene load_steps=5 format=3 uid="uid://dlslox420nnd3"]
 
 [ext_resource type="PackedScene" uid="uid://c0bne3iwiqnac" path="res://scenes/Default block.tscn" id="1_27l6o"]
 [ext_resource type="PackedScene" uid="uid://dh7at44gv1s38" path="res://scenes/Player.tscn" id="2_c6jg5"]
 [ext_resource type="PackedScene" uid="uid://bmi8tl67evdfb" path="res://scenes/Game camera.tscn" id="3_24mo8"]
+[ext_resource type="PackedScene" uid="uid://nl0xkqxujhq" path="res://scenes/Orb.tscn" id="4_1or3o"]
 
 [node name="Test" type="Node"]
 
 [node name="Blocks" type="Node" parent="."]
 
 [node name="Default block2" parent="Blocks" instance=ExtResource("1_27l6o")]
-position = Vector2(1500, -60)
+position = Vector2(3540, -60)
 
 [node name="Default block3" parent="Blocks" instance=ExtResource("1_27l6o")]
-position = Vector2(1980, -60)
+position = Vector2(4020, -60)
 
 [node name="Default block4" parent="Blocks" instance=ExtResource("1_27l6o")]
-position = Vector2(1980, -180)
+position = Vector2(4020, -180)
 
 [node name="Default block5" parent="Blocks" instance=ExtResource("1_27l6o")]
-position = Vector2(2460, -300)
+position = Vector2(4500, -300)
 
 [node name="Default block6" parent="Blocks" instance=ExtResource("1_27l6o")]
-position = Vector2(2460, -180)
+position = Vector2(4500, -180)
 
 [node name="Default block7" parent="Blocks" instance=ExtResource("1_27l6o")]
-position = Vector2(2460, -60)
+position = Vector2(4500, -60)
 
 [node name="Default block8" parent="Blocks" instance=ExtResource("1_27l6o")]
-position = Vector2(3900, -60)
+position = Vector2(5940, -60)
 
 [node name="Default block21" parent="Blocks" instance=ExtResource("1_27l6o")]
-position = Vector2(5340, -60)
+position = Vector2(7380, -60)
 
 [node name="Default block22" parent="Blocks" instance=ExtResource("1_27l6o")]
-position = Vector2(5460, -60)
+position = Vector2(7500, -60)
 
 [node name="Default block24" parent="Blocks" instance=ExtResource("1_27l6o")]
-position = Vector2(5580, -60)
+position = Vector2(7620, -60)
 
 [node name="Default block23" parent="Blocks" instance=ExtResource("1_27l6o")]
-position = Vector2(6060, -180)
+position = Vector2(8100, -180)
 
 [node name="Default block25" parent="Blocks" instance=ExtResource("1_27l6o")]
-position = Vector2(6540, -300)
+position = Vector2(8580, -300)
 
 [node name="Default block26" parent="Blocks" instance=ExtResource("1_27l6o")]
-position = Vector2(6900, -180)
+position = Vector2(8940, -180)
 
 [node name="Default block27" parent="Blocks" instance=ExtResource("1_27l6o")]
-position = Vector2(7380, -300)
+position = Vector2(9420, -300)
 
 [node name="Default block28" parent="Blocks" instance=ExtResource("1_27l6o")]
-position = Vector2(7860, -420)
+position = Vector2(9900, -420)
 
 [node name="Default block29" parent="Blocks" instance=ExtResource("1_27l6o")]
-position = Vector2(8460, -300)
+position = Vector2(10500, -300)
 
 [node name="Default block30" parent="Blocks" instance=ExtResource("1_27l6o")]
-position = Vector2(9060, -180)
+position = Vector2(11100, -180)
 
 [node name="Default block31" parent="Blocks" instance=ExtResource("1_27l6o")]
-position = Vector2(9660, -60)
+position = Vector2(11700, -60)
 
 [node name="Default block9" parent="Blocks" instance=ExtResource("1_27l6o")]
-position = Vector2(4380, -60)
+position = Vector2(6420, -60)
 
 [node name="Default block10" parent="Blocks" instance=ExtResource("1_27l6o")]
-position = Vector2(4380, -180)
+position = Vector2(6420, -180)
 
 [node name="Default block11" parent="Blocks" instance=ExtResource("1_27l6o")]
-position = Vector2(4860, -300)
+position = Vector2(6900, -300)
 
 [node name="Default block12" parent="Blocks" instance=ExtResource("1_27l6o")]
-position = Vector2(4860, -180)
+position = Vector2(6900, -180)
 
 [node name="Default block13" parent="Blocks" instance=ExtResource("1_27l6o")]
-position = Vector2(4860, -60)
+position = Vector2(6900, -60)
 
 [node name="Default block18" parent="Blocks" instance=ExtResource("1_27l6o")]
-position = Vector2(4980, -300)
+position = Vector2(7020, -300)
 
 [node name="Default block19" parent="Blocks" instance=ExtResource("1_27l6o")]
-position = Vector2(4980, -180)
+position = Vector2(7020, -180)
 
 [node name="Default block20" parent="Blocks" instance=ExtResource("1_27l6o")]
-position = Vector2(4980, -60)
+position = Vector2(7020, -60)
 
 [node name="Default block14" parent="Blocks" instance=ExtResource("1_27l6o")]
-position = Vector2(5220, -180)
+position = Vector2(7260, -180)
 
 [node name="Default block15" parent="Blocks" instance=ExtResource("1_27l6o")]
-position = Vector2(5220, -60)
+position = Vector2(7260, -60)
 
 [node name="Default block16" parent="Blocks" instance=ExtResource("1_27l6o")]
-position = Vector2(5100, -180)
+position = Vector2(7140, -180)
 
 [node name="Default block17" parent="Blocks" instance=ExtResource("1_27l6o")]
-position = Vector2(5100, -60)
+position = Vector2(7140, -60)
+
+[node name="Default block32" parent="Blocks" instance=ExtResource("1_27l6o")]
+position = Vector2(13260, -180)
+
+[node name="Default block33" parent="Blocks" instance=ExtResource("1_27l6o")]
+position = Vector2(13260, -60)
+
+[node name="Default block34" parent="Blocks" instance=ExtResource("1_27l6o")]
+position = Vector2(13380, -180)
+
+[node name="Default block35" parent="Blocks" instance=ExtResource("1_27l6o")]
+position = Vector2(13380, -60)
+
+[node name="Default block36" parent="Blocks" instance=ExtResource("1_27l6o")]
+position = Vector2(13620, -180)
+
+[node name="Default block37" parent="Blocks" instance=ExtResource("1_27l6o")]
+position = Vector2(13620, -60)
+
+[node name="Default block38" parent="Blocks" instance=ExtResource("1_27l6o")]
+position = Vector2(13500, -180)
+
+[node name="Default block39" parent="Blocks" instance=ExtResource("1_27l6o")]
+position = Vector2(13500, -60)
+
+[node name="Default block44" parent="Blocks" instance=ExtResource("1_27l6o")]
+position = Vector2(15300, -180)
+
+[node name="Default block45" parent="Blocks" instance=ExtResource("1_27l6o")]
+position = Vector2(15300, -60)
+
+[node name="Default block46" parent="Blocks" instance=ExtResource("1_27l6o")]
+position = Vector2(15420, -180)
+
+[node name="Default block47" parent="Blocks" instance=ExtResource("1_27l6o")]
+position = Vector2(15420, -60)
+
+[node name="Default block48" parent="Blocks" instance=ExtResource("1_27l6o")]
+position = Vector2(15660, -180)
+
+[node name="Default block49" parent="Blocks" instance=ExtResource("1_27l6o")]
+position = Vector2(15660, -60)
+
+[node name="Default block50" parent="Blocks" instance=ExtResource("1_27l6o")]
+position = Vector2(15540, -180)
+
+[node name="Default block51" parent="Blocks" instance=ExtResource("1_27l6o")]
+position = Vector2(15540, -60)
+
+[node name="Default block40" parent="Blocks" instance=ExtResource("1_27l6o")]
+position = Vector2(12780, -60)
+
+[node name="Default block41" parent="Blocks" instance=ExtResource("1_27l6o")]
+position = Vector2(12900, -60)
+
+[node name="Default block42" parent="Blocks" instance=ExtResource("1_27l6o")]
+position = Vector2(13140, -60)
+
+[node name="Default block43" parent="Blocks" instance=ExtResource("1_27l6o")]
+position = Vector2(13020, -60)
+
+[node name="Default block52" parent="Blocks" instance=ExtResource("1_27l6o")]
+position = Vector2(15780, -60)
+
+[node name="Default block53" parent="Blocks" instance=ExtResource("1_27l6o")]
+position = Vector2(15900, -60)
+
+[node name="Default block54" parent="Blocks" instance=ExtResource("1_27l6o")]
+position = Vector2(16140, -60)
+
+[node name="Default block55" parent="Blocks" instance=ExtResource("1_27l6o")]
+position = Vector2(16020, -60)
 
 [node name="Player" parent="." instance=ExtResource("2_c6jg5")]
 position = Vector2(60, -60)
 
 [node name="Camera2D" parent="." node_paths=PackedStringArray("target") instance=ExtResource("3_24mo8")]
 target = NodePath("../Player")
+
+[node name="Orb" parent="." instance=ExtResource("4_1or3o")]
+position = Vector2(1500, -180)
+
+[node name="Orb2" parent="." instance=ExtResource("4_1or3o")]
+position = Vector2(1980, -300)
+
+[node name="Orb3" parent="." instance=ExtResource("4_1or3o")]
+position = Vector2(4980, -420)
+
+[node name="Orb4" parent="." instance=ExtResource("4_1or3o")]
+position = Vector2(5460, -540)
+
+[node name="Orb5" parent="." instance=ExtResource("4_1or3o")]
+position = Vector2(14220, -300)
+
+[node name="Orb6" parent="." instance=ExtResource("4_1or3o")]
+position = Vector2(14700, -300)

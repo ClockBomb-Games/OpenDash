@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://nl0xkqxujhq"]
+
+[ext_resource type="Texture2D" uid="uid://cge2on80wbplm" path="res://assets/sprites/orb.svg" id="1_wb8a2"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_gw5u1"]
+radius = 64.0
+
+[node name="Orb" type="Area2D"]
+collision_layer = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_gw5u1")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_wb8a2")

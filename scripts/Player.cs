@@ -30,16 +30,27 @@ namespace ClockBombGames
 
 		[ExportGroup("Components")]
 		[Export] private Sprite2D sprite;
+		[Export] private Area2D interactionArea;
 
 		private float gravity = ProjectSettings.GetSetting("physics/2d/default_gravity").AsSingle();
 		private float rotationBuffer;
 
 		private Vector2 startPosition;
+		private Node2D collidedArea;
 
 
 		public override void _Ready()
 		{
 			startPosition = GlobalPosition;
+
+
+			interactionArea.AreaEntered += (other) => {
+				collidedArea = other;
+			};
+
+			interactionArea.AreaExited += (other) => {
+				collidedArea = null;
+			};
 		}
 
 		public override void _PhysicsProcess(double delta)
@@ -52,8 +63,9 @@ namespace ClockBombGames
 				velocity.Y += gravity * (float)delta;
 			}
 
-			if (Input.IsActionPressed("jump") && IsOnFloor()) {
+			if (Input.IsActionPressed("jump") && (IsOnFloor() || collidedArea != null)) {
 				velocity.Y = -JumpVelocity;
+				collidedArea = null;
 			}
 			if (Input.IsKeyPressed(Key.R)) {
 				GlobalPosition = startPosition;

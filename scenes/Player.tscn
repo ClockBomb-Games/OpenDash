@@ -1,12 +1,15 @@
-[gd_scene load_steps=4 format=3 uid="uid://dh7at44gv1s38"]
+[gd_scene load_steps=5 format=3 uid="uid://dh7at44gv1s38"]
 
 [ext_resource type="Texture2D" uid="uid://c5rran4bi8yc7" path="res://assets/sprites/player.svg" id="1_qxgn4"]
 [ext_resource type="Script" path="res://scripts/Player.cs" id="1_xt161"]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4r66b"]
+size = Vector2(120, 120)
+
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_f8mh2"]
 size = Vector2(118, 118)
 
-[node name="Player" type="CharacterBody2D" node_paths=PackedStringArray("sprite")]
+[node name="Player" type="CharacterBody2D" node_paths=PackedStringArray("sprite", "interactionArea")]
 slide_on_ceiling = false
 floor_stop_on_slope = false
 floor_block_on_wall = false
@@ -16,9 +19,18 @@ Speed = 1214.0
 JumpVelocity = 2180.0
 rotationSpeed = 400.0
 sprite = NodePath("Sprite")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource("RectangleShape2D_f8mh2")
+interactionArea = NodePath("Interaction Area")
 
 [node name="Sprite" type="Sprite2D" parent="."]
 texture = ExtResource("1_qxgn4")
+
+[node name="Interaction Area" type="Area2D" parent="."]
+collision_mask = 3
+monitorable = false
+
+[node name="Hitbox" type="CollisionShape2D" parent="Interaction Area"]
+shape = SubResource("RectangleShape2D_4r66b")
+debug_color = Color(0.280075, 0.631354, 0, 0.42)
+
+[node name="Hitbox" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_f8mh2")

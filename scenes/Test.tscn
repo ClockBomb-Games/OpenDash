@@ -6,94 +6,96 @@
 
 [node name="Test" type="Node"]
 
-[node name="Default block2" parent="." instance=ExtResource("1_27l6o")]
+[node name="Blocks" type="Node" parent="."]
+
+[node name="Default block2" parent="Blocks" instance=ExtResource("1_27l6o")]
 position = Vector2(1500, -60)
 
-[node name="Default block3" parent="." instance=ExtResource("1_27l6o")]
+[node name="Default block3" parent="Blocks" instance=ExtResource("1_27l6o")]
 position = Vector2(1980, -60)
 
-[node name="Default block4" parent="." instance=ExtResource("1_27l6o")]
+[node name="Default block4" parent="Blocks" instance=ExtResource("1_27l6o")]
 position = Vector2(1980, -180)
 
-[node name="Default block5" parent="." instance=ExtResource("1_27l6o")]
+[node name="Default block5" parent="Blocks" instance=ExtResource("1_27l6o")]
 position = Vector2(2460, -300)
 
-[node name="Default block6" parent="." instance=ExtResource("1_27l6o")]
+[node name="Default block6" parent="Blocks" instance=ExtResource("1_27l6o")]
 position = Vector2(2460, -180)
 
-[node name="Default block7" parent="." instance=ExtResource("1_27l6o")]
+[node name="Default block7" parent="Blocks" instance=ExtResource("1_27l6o")]
 position = Vector2(2460, -60)
 
-[node name="Default block8" parent="." instance=ExtResource("1_27l6o")]
+[node name="Default block8" parent="Blocks" instance=ExtResource("1_27l6o")]
 position = Vector2(3900, -60)
 
-[node name="Default block21" parent="." instance=ExtResource("1_27l6o")]
+[node name="Default block21" parent="Blocks" instance=ExtResource("1_27l6o")]
 position = Vector2(5340, -60)
 
-[node name="Default block22" parent="." instance=ExtResource("1_27l6o")]
+[node name="Default block22" parent="Blocks" instance=ExtResource("1_27l6o")]
 position = Vector2(5460, -60)
 
-[node name="Default block24" parent="." instance=ExtResource("1_27l6o")]
+[node name="Default block24" parent="Blocks" instance=ExtResource("1_27l6o")]
 position = Vector2(5580, -60)
 
-[node name="Default block23" parent="." instance=ExtResource("1_27l6o")]
+[node name="Default block23" parent="Blocks" instance=ExtResource("1_27l6o")]
 position = Vector2(6060, -180)
 
-[node name="Default block25" parent="." instance=ExtResource("1_27l6o")]
+[node name="Default block25" parent="Blocks" instance=ExtResource("1_27l6o")]
 position = Vector2(6540, -300)
 
-[node name="Default block26" parent="." instance=ExtResource("1_27l6o")]
+[node name="Default block26" parent="Blocks" instance=ExtResource("1_27l6o")]
 position = Vector2(6900, -180)
 
-[node name="Default block27" parent="." instance=ExtResource("1_27l6o")]
+[node name="Default block27" parent="Blocks" instance=ExtResource("1_27l6o")]
 position = Vector2(7380, -300)
 
-[node name="Default block28" parent="." instance=ExtResource("1_27l6o")]
+[node name="Default block28" parent="Blocks" instance=ExtResource("1_27l6o")]
 position = Vector2(7860, -420)
 
-[node name="Default block29" parent="." instance=ExtResource("1_27l6o")]
+[node name="Default block29" parent="Blocks" instance=ExtResource("1_27l6o")]
 position = Vector2(8460, -300)
 
-[node name="Default block30" parent="." instance=ExtResource("1_27l6o")]
+[node name="Default block30" parent="Blocks" instance=ExtResource("1_27l6o")]
 position = Vector2(9060, -180)
 
-[node name="Default block31" parent="." instance=ExtResource("1_27l6o")]
+[node name="Default block31" parent="Blocks" instance=ExtResource("1_27l6o")]
 position = Vector2(9660, -60)
 
-[node name="Default block9" parent="." instance=ExtResource("1_27l6o")]
+[node name="Default block9" parent="Blocks" instance=ExtResource("1_27l6o")]
 position = Vector2(4380, -60)
 
-[node name="Default block10" parent="." instance=ExtResource("1_27l6o")]
+[node name="Default block10" parent="Blocks" instance=ExtResource("1_27l6o")]
 position = Vector2(4380, -180)
 
-[node name="Default block11" parent="." instance=ExtResource("1_27l6o")]
+[node name="Default block11" parent="Blocks" instance=ExtResource("1_27l6o")]
 position = Vector2(4860, -300)
 
-[node name="Default block12" parent="." instance=ExtResource("1_27l6o")]
+[node name="Default block12" parent="Blocks" instance=ExtResource("1_27l6o")]
 position = Vector2(4860, -180)
 
-[node name="Default block13" parent="." instance=ExtResource("1_27l6o")]
+[node name="Default block13" parent="Blocks" instance=ExtResource("1_27l6o")]
 position = Vector2(4860, -60)
 
-[node name="Default block18" parent="." instance=ExtResource("1_27l6o")]
+[node name="Default block18" parent="Blocks" instance=ExtResource("1_27l6o")]
 position = Vector2(4980, -300)
 
-[node name="Default block19" parent="." instance=ExtResource("1_27l6o")]
+[node name="Default block19" parent="Blocks" instance=ExtResource("1_27l6o")]
 position = Vector2(4980, -180)
 
-[node name="Default block20" parent="." instance=ExtResource("1_27l6o")]
+[node name="Default block20" parent="Blocks" instance=ExtResource("1_27l6o")]
 position = Vector2(4980, -60)
 
-[node name="Default block14" parent="." instance=ExtResource("1_27l6o")]
+[node name="Default block14" parent="Blocks" instance=ExtResource("1_27l6o")]
 position = Vector2(5220, -180)
 
-[node name="Default block15" parent="." instance=ExtResource("1_27l6o")]
+[node name="Default block15" parent="Blocks" instance=ExtResource("1_27l6o")]
 position = Vector2(5220, -60)
 
-[node name="Default block16" parent="." instance=ExtResource("1_27l6o")]
+[node name="Default block16" parent="Blocks" instance=ExtResource("1_27l6o")]
 position = Vector2(5100, -180)
 
-[node name="Default block17" parent="." instance=ExtResource("1_27l6o")]
+[node name="Default block17" parent="Blocks" instance=ExtResource("1_27l6o")]
 position = Vector2(5100, -60)
 
 [node name="Player" parent="." instance=ExtResource("2_c6jg5")]
